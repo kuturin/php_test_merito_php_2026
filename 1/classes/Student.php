@@ -19,9 +19,9 @@ class Student extends Person
     {
         return <<<HTML
         <div class="student">
-            <h2>{this->name}</h2>
-            <p>Wiek: {this->age}</p>
-            <p>Szkoła {this->school}</p>
+            <h2>{$this->name}</h2>
+            <p>Wiek: {$this->age}</p>
+            <p>Szkoła: {$this->school}</p>
 </div>
 HTML;
     }
