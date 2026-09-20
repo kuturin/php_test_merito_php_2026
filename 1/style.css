@@ -10,6 +10,18 @@ body {
     width: 400 px ;
 }
 
+.teacher {
+    border: 1px solid #333;
+    padding: 15px;
+    margin: 10px, 0;
+    width: 400 px ;
+}
+
+
 .student h2 {
+    margin-top: 0;
+}
+
+.teacher h2 {
     margin-top: 0;
 }

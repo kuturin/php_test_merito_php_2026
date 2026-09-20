@@ -12,13 +12,13 @@ class Teacher extends Person
     }
     public function getInfo(): string
     {
-        return "Imię {$this->name}, wiek ($this->age}, przedmiot: {$this->przedmiot}";
+        return "Imię {$this->name}, wiek {$this->age}, przedmiot: {$this->przedmiot}";
 
     }
     public function getHtml(): string
     {
         return <<<HTML
-        <div class="teeacher">
+        <div class="teacher">
             <h2>{this->name}</h2>
             <p>Wiek: {this->age}</p>
             <p>Przedmiot {this->przedmiot}</p>
