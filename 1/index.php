@@ -27,4 +27,10 @@ $student2 = new Student("Anna", 17, "ZSŁ");
     <h2>Informacje HTML - HEREDOC</h2>
 </body>
 
+<?php
+echo $student1->getHtml();
+echo $student2->getHtml();
+
+?>
+
 </html>
