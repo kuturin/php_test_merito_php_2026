@@ -12,7 +12,7 @@ class Teacher extends Person
     }
     public function getInfo(): string
     {
-        return "Imię {$this->name}, wiek {$this->age}, przedmiot: {$this->przedmiot}";
+        return "Imię: {$this->name}, wiek: {$this->age}, przedmiot: {$this->przedmiot}";
 
     }
     public function getHtml(): string

@@ -12,7 +12,7 @@ class Person
 
     public function getInfo(): string
     {
-        return "Imię {$this->name}, wiek ($this->age}";
+        return "Imię: {$this->name}, wiek: ($this->age}";
 
     }
 }
