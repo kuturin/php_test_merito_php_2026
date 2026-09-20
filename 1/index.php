@@ -12,11 +12,19 @@ $student2 = new Student("Anna", 17, "ZSŁ");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP - OOP</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <h1>Uczniowie</h1>
+    <h2>Informacje o użytkownikach</h2>
+    <?php
+    echo $student1->getInfo() . "<br>";
+    echo $student2->getInfo() . "<hr>";
+    ?>
 
+    <h2>Informacje HTML - HEREDOC</h2>
 </body>
 
 </html>
